@@ -23,6 +23,10 @@
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/f11d305759.js" crossorigin="anonymous"></script>
 
+
+
+
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,59 +39,199 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- Swiper link -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
 </head>
 
 <body>
 
-  <!---------------------------- Header -------------------------->
-<header id="header" class="fixed-top">
-  <div class="container d-flex align-items-right justify-content-lg-between">
-    <h1 class="logo me-auto me-lg-0"><a href="index.html">KREAMpresLIQ<span>.</span></a></h1>
+  <!-- ............................. Header ......................... -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-right justify-content-lg-between">
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">KREAMpresLIQ<span>.</span></a></h1>
 
-    <nav id="navbar" class="navbar order-last order-lg-0">
-      <ul>
-        <li><a class="nav-link scrollto" href="#hero"><span>01.</span>Home</a></li>
-        <li><a class="nav-link scrollto" href="#about"><span>02.</span>About</a></li>
-        <li><a class="nav-link scrollto" href="#hero"><span>03.</span>Experience</a></li>
-        <li><a class="nav-link scrollto" href="#hero"><span>04.</span>Work</a></li>
-        <li><a class="nav-link scrollto" href="#hero"><span>05.</span>Contact</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="#hero"><span>01.</span>Home</a></li>
+          <li><a class="nav-link scrollto" href="#about"><span>02.</span>About</a></li>
+          <li><a class="nav-link scrollto" href="#hero"><span>03.</span>Experience</a></li>
+          <li><a class="nav-link scrollto" href="#hero"><span>04.</span>Work</a></li>
+          <li><a class="nav-link scrollto" href="#hero"><span>05.</span>Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
 
-    <button class="button"><a href="#CV" class="get-started-btn scrollto">Resume</a></button>
-  </div>
-</header>
-<!---------------------------- END - Header -------------------------->
+      <button class="button"><a href="#CV" class="get-started-btn scrollto">Resume</a></button>
+    </div>
+  </header>
+  <!-- ............................... END - Header .......................... -->
 
-<!---------------------------- START - HERO Selection ---------------->
-<section id="hero" class="d-flex align-items-center justify-content-center">
-  <div class="container" data-aos="fade-up">
+  <!--............................... START - HERO Selection .......................... -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
 
-    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-      <div class="col-xl-6 col-lg-8">
-        <h5>Hi, my name is</h5>
-        <h1>KREAMpresLIQ<span>.</span></h1>
-        <h2>Web Developer<span>.</span></h2>
-        <p>I'm learning about design, build websites. My goal is learn HTML & CSS and javascript.
-        </p>
-        <button class="button"><a class="cta-btn" href="https://github.com/KREAMpresLIQ" target="_blank">Check out my Github</a></button>
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h5>Hi, my name is</h5>
+          <h1>KREAMpresLIQ<span>.</span></h1>
+          <h2>Web Developer<span>.</span></h2>
+          <p>I'm learning about design, build websites. My goal is learn HTML & CSS and javascript.
+          </p>
+          <button class="button"><a class="cta-btn" href="https://github.com/KREAMpresLIQ" target="_blank">Check out my Github</a></button>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  <!-- ............................... END - HERO selection .......................... -->
 
-<!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+  <!--............................... START - ABOUT Selection .......................... -->
+
+  <section id="about" class="about">
+    <div class="container" data-aos="fade up">
+
+      <div class="section-title">
+        <h1><span>02.</span> About Me</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-left" data-aos-delay="150">
+          <p class="fst-italic">
+            Hello! my name is kpL (KREAMpresLIQ.) and I enjoy creating things that live on the internet.
+            My interest in web dev. started back in 2017 when I decided to try editing random webpages.
+          </p>
+          <p class="fst-italic">
+            Fast-forward to today, and I've had completed the Academy. My main focus these days is learing/building <b>creative</b> websites.
+          </p>
+          <h6>Here are a few technologies I've been working/learning with recently:</h4>
+            <ul class="row">
+              <li><i class="fa-solid fa-ellipsis"></i></i>HTML</li>
+              <li><i class="fa-solid fa-ellipsis"></i>CSS</li>
+              <li><i class="fa-solid fa-ellipsis"></i>javascript</li>
+              <li><i class="fa-solid fa-ellipsis"></i>Unreal Engine 4.2</li>
+            </ul>
+        </div>
+
+        <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-right" data-aos-delay="150">
+          <div class="hexagon hexagon1">
+            <div class="hexagon-in1">
+              <div class="hexagon-in2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ............................... END - ABOUT selection .......................... -->
+
+  <!-- ............................... STARt - JOBS selection .......................... -->
+  <section id="jobs" class="jobs">
+
+    <div class="section-title">
+      <h1><span>02.</span> Experience</h1>
+    </div>
+    <div class="container" data-aos="fade up">
+      <!-- Project content container -->
+
+      <!-- Slider main container -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide_1">
+            <div class="row">
+              <h1>2017 - 2022 <h2>@Engineer School</h2>
+              </h1>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide slide_2">
+            <div class="row">
+              <h1>2017 - 2022 <h2>@Engineer School</h2>
+              </h1>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide slide_3">
+            <div class="row">
+              <h1>2017 - 2022 <h2>@Engineer School</h2>
+              </h1>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide slide_4">
+            <div class="row">
+              <h1>2017 - 2022 <h2>@Engineer School</h2>
+              </h1>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide slide_5">
+            <div class="row">
+              <h1>2017 - 2022 <h2>@Engineer School</h2>
+              </h1>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+              <p class="fst-italic" data-aos="fade-left" data-aos-delay="150">
+                Ide irok valami
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination">
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- ................................ END .......................................-->
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Swiper .js -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 
 </body>
