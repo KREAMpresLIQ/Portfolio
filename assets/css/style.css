@@ -31,6 +31,42 @@ h6 {
   /* font-family: "Raleway", sans-serif; */
 }
 
+/* Section General  */
+
+section{
+  padding:60px 0;
+  overflow:hidden;
+}
+
+.section-title{
+  padding-bottom:40px;
+}
+
+.section-title h1{
+  font-size:32px;
+  font-weight: 500px;
+  padding:0px;
+  line-height: 1px;
+  margin:0 0 5px 0;
+  letter-spacing: 2px;
+  /* text-transform: uppercase; */
+  color:#ccd6f6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-title h1::after{
+  content:"";
+  width:360px;
+  height: 1px;
+  display: inline-block;
+  background:#ccd6f6;
+  opacity: 0.2;
+  margin:10px 10px;
+}
+
+/* .section-title p{
+
+} */
 
 /* PreLoader */
 
@@ -307,6 +343,7 @@ h6 {
   position:relative;
   /* padding-top:74px; */
   /* text-align: center; */
+  /* padding-right: 660px; */
 }
 
 #hero h1{
@@ -343,11 +380,20 @@ h6 {
   }
 }
 
+@media (max-width: 1280px) {
+  #hero {
+    background-attachment: fixed;
+  }
+  #hero .container{
+    padding-top: 300px;
+  }
+}
+
 @media (max-width: 768px) {
   #hero {
     height: auto;
   }
-  
+
   #hero h1 {
       font-size: 28px;
       line-height: 36px;
@@ -361,4 +407,255 @@ h6 {
   #hero .container{
     padding-top: 300px;
   }
+
+  #header .button{
+    margin-right: 50px;
+  }
+}
+
+/* About selection */
+
+.about .content h3{
+  font-weight: 500;
+  font-size:28px;
+  font-family: 'Montserrat', sans-serif;
+  color:#ccd6f6;
+}
+
+.section-title span{
+  font-family: 'Montserrat', sans-serif;
+  color:#64ffda;
+  font-size:28px;
+  font-weight: 500;
+}
+
+.about .content ul{
+  list-style: none;
+  padding:0;
+  color:#ccd6f6;
+}
+
+.about .content ul li{
+  padding: 0 0 0 26px;
+}
+
+.about .content ul i{
+  /* position: absolute; */
+  font-size:12px;
+  color:#64ffda;
+  padding-right: 10px;
+}
+
+.about .content p:last-child{
+  margin-bottom: 0;
+}
+
+.about p{
+  color:#ccd6f6;
+}
+
+.about h6{
+  color:#ccd6f6;
+}
+
+.hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+    }
+.hexagon-in1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2 {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    opacity: 0.1;
+    background-image: url(../img/about/Soundcloud.jpg);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2:hover {
+    background-image: url(../img/about/Soundcloud.jpg);
+    opacity: 0.9;
+    }
+
+.hexagon1 {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 0 -80px;
+    }
+.hexagon2 {
+    width: 100%;
+    height: 100%;
+    margin: -80px 0 0 20px;
+    }
+
+
+/* jobs selection */
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#jobs *,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+#jobs *{
+  /* padding:0;
+  margin:0; */
+}
+
+#jobs a:hover{
+  cursor:pointer;
+}
+
+#jobs a {
+   text-decoration: none;
+   color: white;
+}
+
+#jobs img{
+  padding:1rem;
+  max-width: 75%;
+  height: auto;
+}
+
+#jobs .container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:1rem;
+}
+
+#jobs .container > div{
+  /* top:25vh; */
+  height: 50vh;
+}
+
+#jobs .project_container img{
+  height: 75%;
+}
+/* Swiper container stylng */
+#jobs h1{
+  color:#ccd6f6;
+  text-align:center;
+}
+
+#jobs h2{
+  color:#ccd6f6;
+  text-align:center;
+  padding-bottom: 120px;
+}
+
+.swiper {
+   right: 1rem;
+   width: 100%;
+   height: 100%;
+}
+
+.swiper-slide {
+
+    /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   /* -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center; */
+}
+
+.swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .swiper {
+    width: 400px;
+    height: 320px;
+ }
+
+.slide_1 {
+  background-color:#112240;
+}
+
+
+.slide_2 {
+  background-color:#112240;
+}
+
+
+.slide_3 {
+   background-color:#112240;
+}
+
+
+.slide_4 {
+   background-color:#112240;
+}
+
+
+.slide_5 {
+   background-color:#112240;
+}
+
+#jobs .section-title{
+  padding-bottom:40px;
+  padding-right:660px;
+}
+
+#jobs .section-title jobs-h1{
+  font-size:32px;
+  font-weight: 500px;
+  padding:0px;
+  line-height: 1px;
+  margin:0 0 5px 0;
+  letter-spacing: 2px;
+  /* text-transform: uppercase; */
+  color:#ccd6f6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#jobs .section-title jobs-h1::after{
+  content:"";
+  width:360px;
+  height: 1px;
+  display: inline-block;
+  background:#ccd6f6;
+  opacity: 0.2;
+  margin:10px 10px;
+}
+
+@media (max-width: 991px) {
+   .container{
+     padding-left: 80px;
+   }
+   #jobs .section-title{
+     padding-left: 60px;
 }
