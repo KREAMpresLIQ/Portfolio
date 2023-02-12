@@ -653,7 +653,7 @@ section{
 }
 
 @media (max-width: 991px) {
-   .container{
+   #jobs .container{
      padding-left: 80px;
    }
    #jobs .section-title{
