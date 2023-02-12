@@ -177,6 +177,29 @@ section{
   font-family: 'Montserrat', sans-serif;
 }
 
+.button-navbar{
+  border:solid 1px #64ffda;
+  background-color: #112240;
+  border-radius: 5px;
+  padding:0px 0px;
+  text-align:center;
+  display:inline-block;
+  font-size:16px;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+
+.button-navbar:active {
+  background-color: #64ffda;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.resume{
+  margin-right: 20px;
+}
+
+
 .navbar ul{
   margin:0px;
   padding:0px;
@@ -238,12 +261,15 @@ section{
   padding-left: 25px;
 }
 
-@media (max-width: 991px){
+@media (max-width: 1028px){
   .mobile-nav-toggle{
     display: block;
   }
 
   .navbar ul{
+    display: none;
+  }
+  .button {
     display: none;
   }
 }
@@ -316,6 +342,7 @@ section{
   display:inline-block;
   font-size:16px;
   transition-duration: 0.4s;
+  text-align: center;
 }
 .button:active {
   background-color: #64ffda;
