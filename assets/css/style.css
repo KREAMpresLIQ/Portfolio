@@ -651,11 +651,3 @@ section{
   opacity: 0.2;
   margin:10px 10px;
 }
-
-@media (max-width: 991px) {
-   #jobs .container{
-     padding-left: 80px;
-   }
-   #jobs .section-title{
-     padding-left: 60px;
-}
