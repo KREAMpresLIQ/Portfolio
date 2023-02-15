@@ -35,10 +35,6 @@ section {
   overflow: hidden;
 }
 
-.6 {
-  padding-bottom: 40px;
-}
-
 .section-title h1 {
   font-size: 32px;
   font-weight: 500px;
@@ -64,6 +60,7 @@ section {
 @media (max-width: 768px) {
   .section-title h1 {
     text-align: center;
+    justify-content: center;
   }
 }
 
@@ -271,7 +268,7 @@ section {
     display: none;
   }
 
-  .button-navbar{
+  .button-navbar {
     display: none;
   }
 }
@@ -308,11 +305,11 @@ section {
   transition: 0.3s;
 }
 
-.navbar-mobile button{
+.navbar-mobile button {
   display: block;
   position: absolute;
-  bottom:270px;
-  right:15px;
+  bottom: 270px;
+  right: 15px;
   /* left:15px; */
   background-color: #112240;
   overflow-y: auto;
@@ -531,7 +528,7 @@ section {
   height: 100%;
   background-repeat: no-repeat;
   background-position: 50%;
-  opacity: 0.1;
+  opacity: 0.05;
   background-image: url(../img/about/Soundcloud.jpg);
   visibility: visible;
   -webkit-transform: rotate(-60deg);
@@ -556,6 +553,12 @@ section {
   width: 100%;
   height: 100%;
   margin: -80px 0 0 20px;
+}
+
+@media (max-width: 768px) {
+  .hexagon-in2 {
+    display: flex;
+  }
 }
 
 /* jobs selection */
@@ -675,34 +678,6 @@ section {
      height: 100%;
   }
 } */
-/* Jobs selection */
-#jobs .section-title {
-  padding-bottom: 40px;
-  padding-right: 660px;
-}
-
-#jobs .section-title jobs-h1 {
-  font-size: 32px;
-  font-weight: 500px;
-  padding: 0px;
-  line-height: 1px;
-  margin: 0 0 5px 0;
-  letter-spacing: 2px;
-  /* text-transform: uppercase; */
-  color: #ccd6f6;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#jobs .section-title jobs-h1::after {
-  content: "";
-  width: 360px;
-  height: 1px;
-  display: inline-block;
-  background: #ccd6f6;
-  opacity: 0.2;
-  margin: 10px 10px;
-}
-
 /* work selection */
 .work {
   padding-top: 20px;
@@ -863,13 +838,12 @@ section {
 }
 
 /* contact selection */
-
-#contact{
-  width:100%;
-  height:auto;
+#contact {
+  width: 100%;
+  height: auto;
 }
 
-#contact:before{
+#contact:before {
   content: "";
   /* background: rgba(0, 0, 0, 0.6); */
   position: absolute;
@@ -879,26 +853,26 @@ section {
   right: 0;
 }
 
-#contact h1{
-  margin:0;
-  color:#ccd6f6;
-  font-size:72px;
+#contact h1 {
+  margin: 0;
+  color: #ccd6f6;
+  font-size: 72px;
   font-weight: 500;
   line-height: 64px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-#contact p{
-  margin:0;
-  color:#8892b0;
+#contact p {
+  margin: 0;
+  color: #8892b0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   padding-top: 30px;
-  padding-bottom:30px;
+  padding-bottom: 30px;
 }
 
-.button-contact{
+.button-contact {
   border: solid 1px #64ffda;
   background-color: #112240;
   border-radius: 5px;
@@ -910,15 +884,15 @@ section {
   justify-content: center;
 }
 
-.contact-btn{
-  color:#64ffda;
+.contact-btn {
+  color: #64ffda;
 }
-.contact-btn:hover{
-  color:#64ffda;
+
+.contact-btn:hover {
+  color: #64ffda;
 }
 
 /* Footer selection */
-
 #footer {
   background: #0a192f;
   padding: 0 0 30px 0;
@@ -926,17 +900,17 @@ section {
   font-size: 14px;
 }
 
-#footer a{
-  color:#8892b0;
-  text-align:center;
+#footer a {
+  color: #8892b0;
+  text-align: center;
 }
 
 #footer h3,
-h4{
-  font-size:15px;
+h4 {
+  font-size: 15px;
 }
 
-#footer a:hover{
-  color:#64ffda;
+#footer a:hover {
+  color: #64ffda;
   transition: 0.6s
 }
