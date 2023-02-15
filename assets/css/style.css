@@ -79,7 +79,7 @@ section {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: darkblue;
+  background: #0a192f;
 }
 
 #preloader:before {
@@ -87,12 +87,12 @@ section {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 12px solid darkblue;
-  border-top-color: #151515;
-  border-bottom-color: #151515;
+  border: 2px solid #0a192f;
+  border-top-color: #64ffda;
+  border-bottom-color: #64ffda;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
