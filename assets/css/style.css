@@ -614,7 +614,7 @@ section {
 #jobs h2 {
   color: #ccd6f6;
   text-align: center;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 
 .swiper {
@@ -767,6 +767,7 @@ section {
   filter: hue-rotate(180deg);
   filter: saturate(100%);
   filter: brightness(50%);
+  box-shadow: 10px 10px #112240;
   /* filter:blur(1px); */
   /* filter: drop-shadow(8px 8px 10px gray); */
 }
